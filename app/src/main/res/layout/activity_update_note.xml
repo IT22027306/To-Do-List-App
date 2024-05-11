@@ -39,6 +39,19 @@
         android:layout_marginTop="16dp"
         android:maxLines="1"
         android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/updatePriorityEditText"
+        android:hint="Enter the Priority"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/updateTitleEditText"
+        android:background="@drawable/orange_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,7 +60,7 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
-        android:layout_below="@+id/updateTitleEditText"
+        android:layout_below="@+id/updatePriorityEditText"
         android:background="@drawable/orange_border"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"/>

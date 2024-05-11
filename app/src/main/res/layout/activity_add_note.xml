@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Add Note."
+        android:text="Add New Task"
         android:textColor="@color/orange"
         android:textSize="24dp" />
     <ImageView
@@ -39,6 +39,20 @@
         android:layout_marginTop="16dp"
         android:maxLines="1"
         android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/priorityEditText"
+        android:hint="Enter the Priority"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/titleEditText"
+        android:background="@drawable/orange_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,10 +61,13 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
-        android:layout_below="@+id/titleEditText"
+        android:layout_below="@+id/priorityEditText"
         android:background="@drawable/orange_border"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"/>
+
+
+
 
 
 
